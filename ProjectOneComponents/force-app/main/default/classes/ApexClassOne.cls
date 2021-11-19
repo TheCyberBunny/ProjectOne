@@ -1,8 +1,14 @@
 public with sharing class ApexClassOne {
-    @AuraEnabled()
-    public static void ApexClassOne() {
-            public static List<Account> getAccountList(){
-                //query
+
+    public static void ApexClassMethod(List<Tavern_Review__c> reviews) {
+            
+        
+            for(Tavern_Review__c t: reviews){
+            if(t.Name == null){
+                t.Name = 'Anonymous';
+                
             }
+            
+        }
     }
 }
