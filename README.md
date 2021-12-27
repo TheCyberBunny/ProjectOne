@@ -1,7 +1,7 @@
 # Project One Description
 This project is based on a business model for a pen & paper RPG Cafe. In this project, I was tasked with modeling a business and implementing a custom LWC, an Apex trigger, and a customer-facing UI. The project connected with the business org and is capable of performing operations on the org data.
 
-##Technologies Used
+## Technologies Used
 - lightning web components
 - HTML
 - CSS
@@ -9,7 +9,7 @@ This project is based on a business model for a pen & paper RPG Cafe. In this pr
 - Apex classes
 - Apex triggers
 
-##Features
+## Features
 -a before insert Apex trigger that conditionally updates a field to 'Anonymous' if the field was left empty by the user
 - an Apex class that contains all logic for trigger
 - custom UI built with HTML CSS and JavaScript code
@@ -24,7 +24,7 @@ This project is based on a business model for a pen & paper RPG Cafe. In this pr
 5. deploy code to the org
 6. add the lwc to any page to see the component in action
 
-##Usage
+## Usage
 1. displaying a customer-facing review form 
 2. detecting if a customer has input data into a field
 3. automatically updating the null field to a predetermined value
@@ -35,6 +35,6 @@ This project is based on a business model for a pen & paper RPG Cafe. In this pr
 
 
 
-##Contributors
+## Contributors
 -Kelsey Morrison
-##License
+## License
